@@ -1,12 +1,10 @@
 {
   "name": "hulu-clone",
   "private": true,
-
   "repository": {
-  "type": "git",
-  "url": "git+https://github.com/snehalchaudharii/Hulu-clone.git"
-},
-
+    "type": "git",
+    "url": "git+https://github.com/snehalchaudharii/Hulu-clone.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

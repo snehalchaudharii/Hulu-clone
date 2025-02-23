@@ -1,14 +1,11 @@
-module.exports = {
-  // reactStrictMode: true,
-  images: {
-    domains: ["image.tmdb.org"],
-  },
-};
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
   basePath: "/Hulu-clone",
   images: {
     unoptimized: true,
+    domains: ["image.tmdb.org"],
   },
 };
-export default nextConfig;
+
+module.exports = nextConfig;
